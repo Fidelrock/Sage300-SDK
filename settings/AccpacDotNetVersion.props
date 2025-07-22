@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Release Version settings -->
   <PropertyGroup Condition=" '$(RefBuildAccpacAdvantageVersion)' == '' ">
-    <RefBuildAccpacAdvantageVersion>7.2.0.20</RefBuildAccpacAdvantageVersion>
+    <RefBuildAccpacAdvantageVersion>6.9.0.0</RefBuildAccpacAdvantageVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RefBuildAccpacAdvantageTypesVersion)' == '' ">
-    <RefBuildAccpacAdvantageTypesVersion>7.2.0.20</RefBuildAccpacAdvantageTypesVersion>
+    <RefBuildAccpacAdvantageTypesVersion>6.9.0.0</RefBuildAccpacAdvantageTypesVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RefBuildCOMSVRInteropVersion)' == '' ">
-    <RefBuildCOMSVRInteropVersion>7.2.0.0</RefBuildCOMSVRInteropVersion>
+    <RefBuildCOMSVRInteropVersion>6.9.0.0</RefBuildCOMSVRInteropVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RefBuildAccpacAdvantageServerVersion)' == '' ">
-    <RefBuildAccpacAdvantageServerVersion>7.2.0.20</RefBuildAccpacAdvantageServerVersion>
+    <RefBuildAccpacAdvantageServerVersion>6.9.0.0</RefBuildAccpacAdvantageServerVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RefInternalVersion)' == '' ">
     <RefInternalVersion>72A</RefInternalVersion>
@@ -22,7 +23,7 @@
     <RefVersionSage300COMSVRInterop>$(RefBuildCOMSVRInteropVersion)</RefVersionSage300COMSVRInterop>
     <RefVersionSage300AccpacAdvantageServer>$(RefBuildAccpacAdvantageServerVersion)</RefVersionSage300AccpacAdvantageServer>
     <RefInternalVersionSage300>$(RefInternalVersion)</RefInternalVersionSage300>
-    <IsSage300AllSpecificVersion>True</IsSage300AllSpecificVersion>
+    <IsSage300AllSpecificVersion>False</IsSage300AllSpecificVersion>
   </PropertyGroup> 
 
   <!-- Reference Variables -->
